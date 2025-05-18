@@ -88,25 +88,15 @@ GitHub Repo
 
     │
     └── Push to Main
-    
          │
-         
          ▼
-         
-    GitHub Actions Workflow
-         
+         GitHub Actions Workflow
          │
-         
-         └── SSH to EC2
-             
+         └── SSH to EC2   
                │
-               
                └── Pull Code + Restart App
-               
-                         │
-                         
-                         ▼
-                 
+                        │          
+                        ▼
                  Flask App Live on EC2
 
 ---
