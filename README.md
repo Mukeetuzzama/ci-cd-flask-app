@@ -61,6 +61,7 @@ nohup python3 app.py > output.log 2>&1 &
 ✅ This ensures your Flask app is always updated and running in the background.
 
 | `EC2_SSH_KEY_B64`   | Base64-encoded `.pem` private key             |
+```
 
 ---
 
