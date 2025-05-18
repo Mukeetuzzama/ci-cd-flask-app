@@ -18,7 +18,6 @@ This project demonstrates a complete CI/CD pipeline setup for a simple **Flask w
 ci-cd-flask-app/
 
 │
-
 ├── app.py # Flask application
 
 ├── requirements.txt # Python dependencies
