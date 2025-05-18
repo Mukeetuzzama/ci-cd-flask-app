@@ -16,18 +16,12 @@ This project demonstrates a complete CI/CD pipeline setup for a simple **Flask w
 
 ## 📁 Project Structure
 ci-cd-flask-app/
-
 │
 ├── app.py # Flask application
-
 ├── requirements.txt # Python dependencies
-
 ├── run.sh # Deployment script executed on EC2
-
 ├── .github/
-
 │ └── workflows/
-
 │ └── ci.yml # GitHub Actions workflow
 
 ---
