@@ -87,8 +87,7 @@ Add automated testing stage to workflow
 GitHub Repo
 
     │
-    
-    └── Push to Main
+        └── Push to Main
     
          │
          
