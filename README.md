@@ -63,17 +63,8 @@ nohup python3 app.py > output.log 2>&1 &
 
 ---
 
-## 🖥️ Deployment Script (`run.sh`)
 
-```bash
-#!/bin/bash
-cd ~/ci-cd-flask-app
-git pull origin main
-pip3 install -r requirements.txt
-nohup python3 app.py > output.log 2>&1 &
-✅ This ensures your Flask app is always updated and running in the background.
-
-
+##
 🧪 How to Test
 Push any code update to the main branch
 
@@ -81,14 +72,18 @@ Watch the Actions tab in your GitHub repo
 
 Once green ✅, visit http://<EC2_PUBLIC_IP>:5000/ in your browser
 
-📌 Future Enhancements
+---
+
+##📌 Future Enhancements
 Use Gunicorn + Nginx for production-grade serving
 
 Enable Docker-based deployments
 
 Add automated testing stage to workflow
 
-📸 Architecture Diagram
+---
+
+##📸 Architecture Diagram
 css
 Copy
 Edit
@@ -105,7 +100,11 @@ GitHub Repo
                          │
                          ▼
                  Flask App Live on EC2
-📬 Contact
+
+---
+
+
+##📬 Contact
 Author: Mukeetuzzama
 LinkedIn: www.linkedin.com/in/mukeetuzzama
 Email: mukeetuzzama@outlook.com
