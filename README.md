@@ -84,21 +84,30 @@ Add automated testing stage to workflow
 ---
 
 ## 📸 Architecture Diagram
-css
-Copy
-Edit
 GitHub Repo
+
     │
+    
     └── Push to Main
+    
          │
+         
          ▼
+         
     GitHub Actions Workflow
+         
          │
+         
          └── SSH to EC2
+             
                │
+               
                └── Pull Code + Restart App
+               
                          │
+                         
                          ▼
+                 
                  Flask App Live on EC2
 
 ---
