@@ -105,6 +105,8 @@ GitHub Repo
 
 ## 📬 Contact
 
-Author: Mukeetuzzama \ln
+Author: Mukeetuzzama
+
 LinkedIn: www.linkedin.com/in/mukeetuzzama
+
 Email: mukeetuzzama@outlook.com
