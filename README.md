@@ -23,6 +23,7 @@ ci-cd-flask-app/
 ├── .github/
 │ └── workflows/
 │ └── ci.yml # GitHub Actions workflow
+
 ---
 
 ## ⚙️ Workflow Process
@@ -63,9 +64,7 @@ nohup python3 app.py > output.log 2>&1 &
 
 ---
 
-
-##
-🧪 How to Test
+## 🧪 How to Test
 Push any code update to the main branch
 
 Watch the Actions tab in your GitHub repo
@@ -74,7 +73,7 @@ Once green ✅, visit http://<EC2_PUBLIC_IP>:5000/ in your browser
 
 ---
 
-##📌 Future Enhancements
+## 📌 Future Enhancements
 Use Gunicorn + Nginx for production-grade serving
 
 Enable Docker-based deployments
@@ -83,7 +82,7 @@ Add automated testing stage to workflow
 
 ---
 
-##📸 Architecture Diagram
+## 📸 Architecture Diagram
 css
 Copy
 Edit
@@ -103,8 +102,7 @@ GitHub Repo
 
 ---
 
-
-##📬 Contact
+## 📬 Contact
 Author: Mukeetuzzama
 LinkedIn: www.linkedin.com/in/mukeetuzzama
 Email: mukeetuzzama@outlook.com
